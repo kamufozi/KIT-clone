@@ -21,7 +21,7 @@
 </head>
 <body>
     <main>
-        <header class="relative px-6 py-3 border">
+        <header class="relative px-6 py-3 flex flex-col lg:flex-row border lg:items-center lg:justifty-between">
             <a href="#" class="">
                 <svg version="1.1" id="svg2" class="w-22" viewBox="0 0 1122.3333 659.17334" sodipodi:docname="Logo_KIT-200-Jahre_CMYK_K100_ENG.eps" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
                     <defs id="defs6">
@@ -59,7 +59,7 @@
                   </svg>
             </a>
             <input type="checkbox" class="peer hidden" id="nav-button">
-            <div  class="flex absolute top-3 right-7  items-center gap-4">
+            <div  class="flex absolute top-3 right-7  items-center gap-4 lg:hidden">
                 <div>
                     <i class="fas fa-search fa-xl"></i>
                 </div>
@@ -74,6 +74,28 @@
                     </svg> 
                 </label>
             </div>
+            <nav class="hidden lg:block border">
+                <ul class="flex flex-row gap-4">
+                    <li>
+                        <a href="#">KIT</a>
+                    </li>
+                    <li>
+                        <a href="#">Topics</a>
+                    </li>
+                    <li>
+                        <a href="#">Studies</a>
+                    </li>
+                    <li>
+                        <a href="#">Research</a>
+                    </li>
+                    <li>
+                        <a href="#">Innovation</a>
+                    </li>
+                    <li>
+                        <a href="#">Career</a>
+                    </li>
+                </ul>
+            </nav>
             <nav class="peer-checked:max-h-full max-h-0 overflow-hidden">
                 <ul>
                     <li>
