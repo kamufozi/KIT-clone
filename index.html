@@ -20,9 +20,10 @@
 
 </head>
 <body>
-    <main>
-        <header class="relative px-6 py-3 flex flex-col lg:flex-row border lg:items-center lg:justifty-between">
-            <a href="#" class="">
+     <main>
+        <header class="relative px-6 pt-3 pb-1 lg:px-10">
+            <div class="flex flex-col lg:flex-row  lg:items-center lg:justify-between">
+              <a href="#" class="">
                 <svg version="1.1" id="svg2" class="w-22" viewBox="0 0 1122.3333 659.17334" sodipodi:docname="Logo_KIT-200-Jahre_CMYK_K100_ENG.eps" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
                     <defs id="defs6">
                       <radialGradient fx="0" fy="0" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(2227.29,-1414.36,-1414.36,-2227.29,4189.63,2327.16)" spreadMethod="pad" id="radialGradient50">
@@ -58,24 +59,48 @@
                     </g>
                   </svg>
             </a>
-            <input type="checkbox" class="peer hidden" id="nav-button">
-            <div  class="flex absolute top-3 right-7  items-center gap-4 lg:hidden">
-                <div>
-                    <i class="fas fa-search fa-xl"></i>
-                </div>
-                <div>
-                    <i class="fa-solid fa-earth-americas fa-xl"></i>
-                </div>
-                <label for="nav-button" class="bg-[#00876c] p-2">
-                    <svg class="burger-icon " xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300 274.5" width="40px" height="30px" style="fill: white;">
-                        <rect class="burger-top" y="214.4" width="300" height="60.1"></rect>
-                        <rect class="burger-middle" y="107.2" width="300" height="60.1"></rect>
-                        <rect class="burger-bottom" y="0" width="300" height="60.1"></rect>
-                    </svg> 
-                </label>
-            </div>
-            <nav class="hidden lg:block border">
+           <div>
+              <nav class="hidden lg:block ">
                 <ul class="flex flex-row gap-4">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Plain Language</a>
+                    </li>
+                    <li>
+                        <a href="#">Legals</a>
+                    </li>
+                    <li>
+                        <a href="#">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#">Accessibility</a>
+                    </li>
+                    <li>
+                        <a href="#">Sitemap</a>
+                    </li>
+                    <li>
+                        <a href="#">Intranet</a>
+                    </li>
+                    <li>
+                        <a href="#">KIT</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                          DE
+                          <i class="fa-solid fa-earth-americas fa-sm"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="£">
+                          <i class="fas fa-search fa-md"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+             <nav class="hidden lg:block lg:py-2">
+                <ul class="flex justify-end gap-7">
                     <li>
                         <a href="#">KIT</a>
                     </li>
@@ -94,8 +119,32 @@
                     <li>
                         <a href="#">Career</a>
                     </li>
+                    <li>
+                        <a href="#">
+                          <i class="fa-solid fa-house"></i>
+                        </a>
+                    </li>
                 </ul>
             </nav>
+           </div>
+          </div>
+            <input type="checkbox" class="peer hidden" id="nav-button">
+            <div  class="flex absolute top-3 right-7  items-center gap-4 lg:hidden">
+                <div>
+                    <i class="fas fa-search fa-xl"></i>
+                </div>
+                <div>
+                    <i class="fa-solid fa-earth-americas fa-xl"></i>
+                </div>
+                <label for="nav-button" class="bg-[#00876c] p-2">
+                    <svg class="burger-icon " xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300 274.5" width="40px" height="30px" style="fill: white;">
+                        <rect class="burger-top" y="214.4" width="300" height="60.1"></rect>
+                        <rect class="burger-middle" y="107.2" width="300" height="60.1"></rect>
+                        <rect class="burger-bottom" y="0" width="300" height="60.1"></rect>
+                    </svg> 
+                </label>
+            </div>
+            
             <nav class="peer-checked:max-h-full max-h-0 overflow-hidden">
                 <ul>
                     <li>
@@ -119,6 +168,28 @@
                 </ul>
             </nav>
         </header>
+        <section>
+          <div class="text-white bg-cover bg-center bg-[url(https://www.kit.edu/img/jubilaeum_header.jpg)] px-12 pt-10 pb-6">
+            <h1 class="text-4xl ">Studying at KIT</h1>
+            <hr class="bg-[#00876c] border border-[#00876c] h-[4px] my-2">
+            <p class="pr-6 pb-4">
+              <a href="#">
+                Research-based learning between academic tradition and cutting-edge research
+              </a>
+            </p>
+            <div>
+              <h4 class="font-bold">
+                <a href="#">Research based studies</a>
+              </h4>
+              <h4 class="font-bold">
+                <a href="#">Degree programs</a>
+              </h4>
+                <h4 class="font-bold">
+                <a href="#">Application</a>
+              </h4>
+            </div>
+          </div>
+        </section>
     </main>
     <script src="./js/app.js"></script>
 </body>
